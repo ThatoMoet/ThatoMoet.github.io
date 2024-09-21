@@ -17,7 +17,7 @@ img {
     align-items: center;      /* Vertically centers the image */
     height: 100vh;            /* Takes up the full height of the viewport */
 }
-body {
+html, body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
