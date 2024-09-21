@@ -21,8 +21,8 @@ html, body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
-  background color: #000000;
-  color: #ffffff;
+  background color: #000000 !important;
+  color: #ffffff !important;
   line-height: 1.5;
   padding: 4em 1em;
 }
