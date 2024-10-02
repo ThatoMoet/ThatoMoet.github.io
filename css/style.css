@@ -27,10 +27,13 @@ img {
 
 /* Style the navbar links */
 .topnav {
+  display: flex;
   background-color: #f0eded;
   position: fixed;
   top: 0;
-  width 100;
+  width 100%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Style the links inside the navigation bar */
