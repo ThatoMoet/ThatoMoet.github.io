@@ -29,7 +29,6 @@ img {
 /* Style the navbar links */
 .topnav {
   display: flex;
-  background-color: #f0eded;
   position: fixed;
   top: 0;
   width 100%;

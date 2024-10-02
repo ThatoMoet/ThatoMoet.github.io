@@ -18,6 +18,11 @@ topnav {
   color: #ffffff;
   text-align: center;
 }
+home-button{
+  display: block;
+  margin: auto;
+
+}
 
 /* Style the navbar links */
 .topnav {
@@ -64,5 +69,4 @@ html, body {
   color: #ffffff !important;
   line-height: 1.5;
   padding: 4em 1em;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=50512);)
 }
