@@ -24,13 +24,7 @@ img {
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-#welcome-section {
-  background-color: #000000;
-  padding-top:  0px;
-  height: 20vh;
-  color: #ffffff;
-  text-align: center;
-}
+
 
 /* Style the navbar links */
 .topnav {
@@ -51,9 +45,9 @@ img {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Change the color of links on hover */

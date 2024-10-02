@@ -11,13 +11,7 @@
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-#welcome-section {
-  background-color: #000000;
-  padding-top:  0px;
-  height: 20vh;
-  color: #ffffff;
-  text-align: center;
-}
+
 
 /* Style the navbar links */
 .topnav {
