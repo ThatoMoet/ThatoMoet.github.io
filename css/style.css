@@ -1,15 +1,15 @@
 header img {
   display: inline-block;
-  height: 120px;
+  height: 50px;
   vertical-align: top;
-  width: 120px;
+  width: 50px;
 }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
-  width: 50%;
+  border-radius: 30%;
+  width: 30%;
 }
 .centered {
     display: flex;
@@ -24,6 +24,13 @@ img {
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
+#welcome-section {
+  background-color: #664E4C;
+  padding-top:  250px;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
 
 /* Style the navbar links */
 .topnav {
@@ -34,6 +41,7 @@ img {
   width 100%;
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -65,7 +73,7 @@ html, body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 15x;
+  font-size: 50x;
   background-color: #000000 !important;
   color: #ffffff !important;
   line-height: 1.5;
