@@ -28,6 +28,9 @@ img {
 /* Style the navbar links */
 .topnav {
   background-color: #f0eded;
+  position: fixed;
+  top: 0;
+  width 100;
 }
 
 /* Style the links inside the navigation bar */
@@ -54,6 +57,7 @@ img {
   background-color: #04AA6D;
   color: white;
 }
+
 html, body {
   margin: 0 auto;
   max-width: 50em;
@@ -63,4 +67,5 @@ html, body {
   color: #ffffff !important;
   line-height: 1.5;
   padding: 4em 1em;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=50512);)
 }
