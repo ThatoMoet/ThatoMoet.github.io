@@ -1,0 +1,25 @@
+
+
+#welcome-section {
+  background-color: #000000;
+  padding-top:  0px;
+  height: 20vh;
+  color: #ffffff;
+  text-align: center;
+}
+home-button{
+  display: block;
+  margin: auto;
+
+}
+
+html, body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 50x;
+  background-color: black !important;
+  color: #ffffff !important;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
