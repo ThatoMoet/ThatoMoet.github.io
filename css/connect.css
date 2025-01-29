@@ -66,3 +66,10 @@ html, body {
   padding: 4em 1em;
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=50512);)
 }
+
+a { color:white;
+}
+a:visited { color: grey; }.
+a:hover{
+  color:blue;
+}
