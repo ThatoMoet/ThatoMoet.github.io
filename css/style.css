@@ -1,14 +1,29 @@
+header img {
+  display: inline-block;
+  height: 50px;
+  vertical-align: top;
+  width: 50px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30%;
+  width: 30%;
+}
+
 
 .topnav {
   width:100%;
   display: flex;
   position: fixed;
   top: 0;
-  left:0;
+  left:-20px;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0px 30px;
   z-index: 1000;
   justify-content:center;
+  bottom-width: 10px;
 }
 
 .topnav a {
@@ -22,6 +37,7 @@
   padding: 0;
   text-decoration: none;
   font-size: 18px;
+
 }
 
 .topnav a:hover {
@@ -33,23 +49,22 @@
   background-color: #04AA6D;
   color: white;
 }
-h1 {
-  margin: 1em auto;
-  text-align: center;
-}
+
+
 html, body {
   margin: 0 auto;
-  width:100%
-  height: 100vh;
-  margin:0;
-  max-width: 50em;
+  margin-bottom: 50px;
+  width: 75%;
+  height:100vh;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 50x;
   background-color: #000000 !important;
-  color: #ffffff !important;
+  color: #f5f6f7 !important;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding-top: 60px;
+  margin-bottom: 20px;
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=50512);)
+
 }
 label {
   display: block;
@@ -57,9 +72,15 @@ label {
 }
 input{margin: 10px 0 0 0;
   width: 100%;}
-a { color:white;
+#welcome-section {
+  background-color: #000000;
+  padding-top:  0px;
+  height: 20vh;
+  color: #ffffff;
+  text-align: center;
 }
-a:visited { color: grey; }.
-a:hover{
-  color:blue;
+home-button{
+  display: block;
+  margin: auto;
+
 }
